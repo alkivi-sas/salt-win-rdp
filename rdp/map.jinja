@@ -1,0 +1,7 @@
+{% set rdp = salt['grains.filter_by']({
+    'Windows': {
+        'service': 'TermService',
+        'port': '3389',
+    }, 
+}, grain='os', default='Windows', merge=salt['pillar.get']('rdp:lookup')) %}
+
