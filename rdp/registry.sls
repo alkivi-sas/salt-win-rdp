@@ -4,5 +4,3 @@ HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\
         - vname: PortNumber
         - vdata: 9389
         - vtype: REG_DWORD
-        - reflection: True
-
